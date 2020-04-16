@@ -3,11 +3,13 @@ cena = float(input("Ile kosztuje kilogram ziemniaków? \n"))
 wartosc = cena * 5
 print(f"5 kg ziemniaków kosztuje {wartosc} zł.")
 
+
 #CZĘŚĆ 2
 cena = float(input("Ile kosztuje kilogram ziemniaków? \n"))
 ilosc = float(input("Ile kilogramów chcesz kupić? \n"))
 wartosc = cena * ilosc
 print(f"Za {ilosc} kg ziemniaków musisz zapłacić {wartosc} zł.")
+
 
 #CZĘŚĆ 3
 cena_z = float(input("Ile kosztuje kilogram ziemniaków? \n"))
