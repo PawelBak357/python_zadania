@@ -68,6 +68,24 @@ def pierwsza_wieksza(liczby: list, x: float) -> float:
 
 print(pierwsza_wieksza(lista_liczb, 100))
 
+##################################################
+
+def suma_wiekszych(liczby: list, x: int) -> int:
+    """
+    zwraca (`return`) sumę liczb z listy `liczby`, które są większe niż `x
+    :param liczby: lista liczb
+    :param x: liczba
+    :return: suma większyc
+    """
+    suma = 0
+    for a in liczby:
+        if a > x:
+            suma += a
+    return suma
+print('$' * 30)
+print(suma_wiekszych(lista_liczb, 15))
+print('$' * 30)
+
 
 ##################################################
 
