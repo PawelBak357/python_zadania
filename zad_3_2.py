@@ -22,7 +22,7 @@ def liczba_dni_lutego(a: int) -> int:
     :param a: rok
     :return: liczba dni lutego
     """
-    if a % 4 == 0 and a % 400 != 0:
+    if a % 4 == 0 and a % 100 != 0 or a % 400 == 0:
         return 29
     else:
         return 28
